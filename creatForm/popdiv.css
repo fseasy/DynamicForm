@@ -1,0 +1,44 @@
+.popout{
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999; 
+}
+.popout .popdiv{
+	background:#fff ;
+	-webkit-border-radius:4px; 
+	-moz-border-radius:4px; 
+	border-radius:4px;
+	border:1px solid #e5e5e5;
+}
+.popdiv .poptit{
+	background:#ddd ;
+	color:#333 ;
+	padding:0 10px ;
+	height:30px ;
+	line-height:30px ;
+	border-radius:4px 4px 0 0 ;
+	font-size:18px ;
+	overflow:hidden ;
+	text-align:center ;
+}
+.popdiv .closeBtn{
+	font-family:arial; 
+	font-size:18px; 
+	_font-size:12px; 
+	font-weight:700; 
+	color:#999;
+	text-decoration:none;
+	float:right;
+	cursor:pointer ;
+}
+.popdiv .popcont{
+	overflow:auto ;
+	height:90% ;
+	padding:10px ;
+}
